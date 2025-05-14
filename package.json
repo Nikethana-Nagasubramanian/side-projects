@@ -1,0 +1,38 @@
+{
+  "name": "side-projects",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "music-cards"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:music-cards": "npm run start -w music-cards"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikethana-Nagasubramanian/side-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikethana-Nagasubramanian/side-projects/issues"
+  },
+  "homepage": "https://github.com/Nikethana-Nagasubramanian/side-projects#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.17",
+    "react-scripts": "5.0.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}
